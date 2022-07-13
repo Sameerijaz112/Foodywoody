@@ -113,6 +113,7 @@ p {
   background: #06D85F;
 }*/
 
+
 .overlay {
   position: fixed;
   top: 0;
@@ -216,4 +217,8 @@ transition: 1.0s all;
 }
 footer{
     background-color:#F17228;
+}
+.card-img-top{
+  width: 400px;
+  height: 400px;
 }
