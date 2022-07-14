@@ -5,14 +5,15 @@ const aa =document.querySelectorAll.bind(document);
 let value1 = 0;
 let value2 = 0;
 let value3 = 0;
+let result = 0;
 
 let GetButtonvalue1 = () => {
 
   try {
-   let Tvalue = parseInt(a('.value1').dataset.value);
-   value1 +=Tvalue;
-   let Getinput = a('.one');
-   Getinput.placeholder = `${value1}`;
+ let Tvalue = parseInt(a('.value1').dataset.value);
+ value1 +=Tvalue;
+ let Getinput = a('.one');
+ Getinput.placeholder = `${value1}`;
 
 
 
@@ -84,6 +85,7 @@ if (value3 !== 0 ) {
 
 let resultdiv =document.querySelector('.showMyResult');
 resultdiv.innerHTML = `${result}`
+
 
 
 } catch (error) {
