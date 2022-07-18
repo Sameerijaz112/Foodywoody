@@ -83,8 +83,8 @@ if (value3 !== 0 ) {
    
 }
 
-let resultdiv =document.querySelector('.showMyResult');
-resultdiv.innerHTML = `${result}`
+let resultdiv =document.querySelector('.tenten');
+resultdiv.placeholder = `${result}`
 
 
 

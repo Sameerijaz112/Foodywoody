@@ -27,7 +27,7 @@ p {
 }
 
 .hero-image {
-  background-image: url("./assects/alex-munsell-auIbTAcSH6E-unsplash.jpg");
+  background-image: url("./assects/1-min.jpg");
   height: 30%;
   background-position: center;
   background-repeat: no-repeat;
@@ -225,6 +225,6 @@ footer{
 section{
 
 margin-top: 20px;
-  margin-left: 500px;
+
   
 }
