@@ -3,7 +3,13 @@ html {
   height: 100%;
   margin: 0;
 }
-
+.btn-dark{
+  font-family: Georgia;
+  font-weight: bold;
+  font-style: italic;
+  margin: 10px;
+  text-shadow: 2px 2px #000;
+}
 h1 {
   font-family: Georgia;
   font-weight: bold;
